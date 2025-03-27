@@ -44,7 +44,7 @@ class KetoMeal implements MealPlan {
         this.mealName = mealName;
     }
 
-    public String getMealType() {
+    public String getMealType(){
         return "Keto Meal";
     }
 
