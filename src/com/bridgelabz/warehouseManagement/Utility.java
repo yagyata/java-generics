@@ -7,7 +7,7 @@ public class Utility {
             System.out.println("No items found");
         }
         for(WarehouseItem items : item) {
-            System.out.println(item);
+            System.out.println("Name: " + items.getName() + ", Price: " + items.getPrice());
         }
     }
 }

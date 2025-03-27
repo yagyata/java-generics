@@ -2,7 +2,7 @@ package com.bridgelabz.warehouseManagement;
 
 public class WarehouseSystem {
     public static void main(String[] args){
-        Storage<WarehouseItem.Electronics> electronicsStorage = new Storage<>();
+        Storage<Electronics> electronicsStorage = new Storage<>();
         electronicsStorage.addItem(new Electronics("Laptop", 80000));
         electronicsStorage.addItem(new Electronics("Smartphone", 50000));
 
@@ -15,12 +15,12 @@ public class WarehouseSystem {
         furnitureStorage.addItem(new Furniture("Table", 10000));
 
         System.out.println("Electronics in Storage:");
-        WarehouseUtils.displayItems(electronicsStorage.getItems());
+        Utility.displayItems(electronicsStorage.getItems());
 
         System.out.println("\nGroceries in Storage:");
-        WarehouseUtils.displayItems(groceriesStorage.getItems());
+        Utility.displayItems(groceriesStorage.getItems());
 
         System.out.println("\nFurniture in Storage:");
-        WarehouseUtils.displayItems(furnitureStorage.getItems());
+        Utility.displayItems(furnitureStorage.getItems());
     }
 }
