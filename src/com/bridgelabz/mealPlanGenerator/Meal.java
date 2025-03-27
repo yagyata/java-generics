@@ -7,7 +7,11 @@ class Meal<T extends MealPlan> {
         this.meal = meal;
     }
 
+    public T getMeal() {
+        return meal;
+    }
+
     public void displayMeal() {
-        System.out.println("Selected Meal Plan: " + meal.getMealType());
+        System.out.println("Selected Meal Plan: " + meal.getMealType() + " - " + meal.getMealName());
     }
 }
