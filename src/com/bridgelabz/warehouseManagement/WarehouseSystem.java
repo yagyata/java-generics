@@ -10,6 +10,7 @@ public class WarehouseSystem {
         groceriesStorage.addItem(new Groceries("Brown Bread", 60));
         groceriesStorage.addItem(new Groceries("Cheese Slices", 180));
 
+
         Storage<Furniture> furnitureStorage = new Storage<>();
         furnitureStorage.addItem(new Furniture("Sofa", 25000));
         furnitureStorage.addItem(new Furniture("Table", 10000));

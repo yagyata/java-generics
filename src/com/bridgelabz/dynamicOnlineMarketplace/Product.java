@@ -1,6 +1,6 @@
 package com.bridgelabz.dynamicOnlineMarketplace;
 
-class Product<T extends Category>  {
+class Product<T extends Category> {
     private String name;
     private double price;
     private T category;
@@ -11,7 +11,7 @@ class Product<T extends Category>  {
         this.category = category;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
@@ -25,5 +25,10 @@ class Product<T extends Category>  {
 
     public T getCategory() {
         return category;
+    }
+
+    @Override
+    public String toString() {
+        return "Product: " + name + ", Price: " + price + ", Category: " + category.getCategoryName();
     }
 }

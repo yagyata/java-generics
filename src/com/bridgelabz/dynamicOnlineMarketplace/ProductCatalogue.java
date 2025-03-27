@@ -1,7 +1,8 @@
 package com.bridgelabz.dynamicOnlineMarketplace;
+
 import java.util.*;
 
-public class Discount {
+class ProductCatalogue {
     private List<Product<? extends Category>> products = new ArrayList<>();
 
     public void addProduct(Product<? extends Category> product) {
