@@ -7,8 +7,8 @@ public class WarehouseSystem {
         electronicsStorage.addItem(new Electronics("Smartphone", 50000));
 
         Storage<Groceries> groceriesStorage = new Storage<>();
-        groceriesStorage.addItem(new Groceries("Rice", 200));
-        groceriesStorage.addItem(new Groceries("Milk", 50));
+        groceriesStorage.addItem(new Groceries("Brown Bread", 60));
+        groceriesStorage.addItem(new Groceries("Cheese Slices", 180));
 
         Storage<Furniture> furnitureStorage = new Storage<>();
         furnitureStorage.addItem(new Furniture("Sofa", 25000));
