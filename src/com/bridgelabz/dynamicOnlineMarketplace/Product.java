@@ -19,6 +19,10 @@ class Product<T extends Category>  {
         return price;
     }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public T getCategory() {
         return category;
     }
