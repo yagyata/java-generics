@@ -1,6 +1,7 @@
 package com.bridgelabz.dynamicOnlineMarketplace;
 
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 
 class ProductCatalogue {
     private List<Product<? extends Category>> products = new ArrayList<>();
